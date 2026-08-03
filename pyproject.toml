@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdfnow"
+version = "0.1.0"
+description = "Edit scanned PDFs while preserving visual style"
+requires-python = ">=3.11"
+dependencies = [
+    "pymupdf>=1.24.0",
+    "pillow>=10.0.0",
+    "opencv-python-headless>=4.9.0",
+    "pytesseract>=0.3.10",
+    "numpy>=1.26.0",
+    "click>=8.1.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+paddle = ["paddleocr>=2.8.0"]
+dev = ["pytest>=8.0", "pytest-cov>=4.0"]
+
+[project.scripts]
+pdfnow = "pdfnow.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["pdfnow*"]

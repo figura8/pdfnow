@@ -1,0 +1,5281 @@
+{
+  "source_path": "C:\\Users\\maurizio\\Downloads\\REP 1182.PDF.pdf",
+  "metadata": {
+    "title": "atto.pdf",
+    "author": "",
+    "page_count": 30,
+    "ocr_engine": "TesseractEngine",
+    "ocr_lang": "ita"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "image_path": "C:\\Users\\maurizio\\Downloads\\.pdfnow\\REP 1182.PDF\\page_0001.png",
+      "width": 2481,
+      "height": 3508,
+      "blocks": [
+        {
+          "bbox": {
+            "x0": 320,
+            "y0": 384,
+            "x1": 1866,
+            "y1": 3337
+          },
+          "lines": [
+            {
+              "words": [
+                {
+                  "text": "Repertorio",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 384,
+                    "x1": 561,
+                    "y1": 433
+                  },
+                  "confidence": 0.61,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "n.",
+                  "bbox": {
+                    "x0": 576,
+                    "y0": 396,
+                    "x1": 616,
+                    "y1": 421
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "1182",
+                  "bbox": {
+                    "x0": 633,
+                    "y0": 386,
+                    "x1": 730,
+                    "y1": 421
+                  },
+                  "confidence": 0.96,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Raccolta",
+                  "bbox": {
+                    "x0": 1371,
+                    "y0": 384,
+                    "x1": 1559,
+                    "y1": 421
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "n.",
+                  "bbox": {
+                    "x0": 1575,
+                    "y0": 396,
+                    "x1": 1614,
+                    "y1": 421
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "912",
+                  "bbox": {
+                    "x0": 1632,
+                    "y0": 386,
+                    "x1": 1704,
+                    "y1": 421
+                  },
+                  "confidence": 0.96,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "COMPRAVENDITA",
+                  "bbox": {
+                    "x0": 858,
+                    "y0": 452,
+                    "x1": 1332,
+                    "y1": 488
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "REPUBBLICA",
+                  "bbox": {
+                    "x0": 795,
+                    "y0": 520,
+                    "x1": 1119,
+                    "y1": 556
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "ITALIANA",
+                  "bbox": {
+                    "x0": 1134,
+                    "y0": 520,
+                    "x1": 1392,
+                    "y1": 556
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "TIl",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 587,
+                    "x1": 353,
+                    "y1": 623
+                  },
+                  "confidence": 0.3,
+                  "corrected_text": "Il",
+                  "status": "corrected"
+                },
+                {
+                  "text": "giorno",
+                  "bbox": {
+                    "x0": 371,
+                    "y0": 587,
+                    "x1": 517,
+                    "y1": 636
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "10",
+                  "bbox": {
+                    "x0": 550,
+                    "y0": 589,
+                    "x1": 596,
+                    "y1": 624
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(dieci)",
+                  "bbox": {
+                    "x0": 616,
+                    "y0": 587,
+                    "x1": 755,
+                    "y1": 628
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "del",
+                  "bbox": {
+                    "x0": 775,
+                    "y0": 587,
+                    "x1": 843,
+                    "y1": 624
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "mese",
+                  "bbox": {
+                    "x0": 860,
+                    "y0": 599,
+                    "x1": 974,
+                    "y1": 624
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "di",
+                  "bbox": {
+                    "x0": 993,
+                    "y0": 587,
+                    "x1": 1035,
+                    "y1": 624
+                  },
+                  "confidence": 0.89,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "luglio",
+                  "bbox": {
+                    "x0": 1052,
+                    "y0": 587,
+                    "x1": 1179,
+                    "y1": 637
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "dell'anno",
+                  "bbox": {
+                    "x0": 1198,
+                    "y0": 587,
+                    "x1": 1407,
+                    "y1": 624
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "2026",
+                  "bbox": {
+                    "x0": 1424,
+                    "y0": 588,
+                    "x1": 1521,
+                    "y1": 624
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(duemilaventi-",
+                  "bbox": {
+                    "x0": 1541,
+                    "y0": 587,
+                    "x1": 1865,
+                    "y1": 634
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "sei)",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 656,
+                    "x1": 393,
+                    "y1": 702
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "in",
+                  "bbox": {
+                    "x0": 410,
+                    "y0": 654,
+                    "x1": 455,
+                    "y1": 690
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Afragola",
+                  "bbox": {
+                    "x0": 470,
+                    "y0": 655,
+                    "x1": 664,
+                    "y1": 705
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(NA)",
+                  "bbox": {
+                    "x0": 681,
+                    "y0": 656,
+                    "x1": 789,
+                    "y1": 702
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "via",
+                  "bbox": {
+                    "x0": 806,
+                    "y0": 657,
+                    "x1": 872,
+                    "y1": 692
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Amendola",
+                  "bbox": {
+                    "x0": 887,
+                    "y0": 655,
+                    "x1": 1120,
+                    "y1": 692
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "n.",
+                  "bbox": {
+                    "x0": 1134,
+                    "y0": 668,
+                    "x1": 1172,
+                    "y1": 691
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "126",
+                  "bbox": {
+                    "x0": 1192,
+                    "y0": 656,
+                    "x1": 1262,
+                    "y1": 692
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "in",
+                  "bbox": {
+                    "x0": 1279,
+                    "y0": 657,
+                    "x1": 1321,
+                    "y1": 691
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Credit",
+                  "bbox": {
+                    "x0": 1337,
+                    "y0": 655,
+                    "x1": 1476,
+                    "y1": 692
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Agricole",
+                  "bbox": {
+                    "x0": 1490,
+                    "y0": 655,
+                    "x1": 1677,
+                    "y1": 705
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "Innanzi",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 722,
+                    "x1": 495,
+                    "y1": 759
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "a",
+                  "bbox": {
+                    "x0": 518,
+                    "y0": 735,
+                    "x1": 540,
+                    "y1": 759
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "me",
+                  "bbox": {
+                    "x0": 562,
+                    "y0": 735,
+                    "x1": 627,
+                    "y1": 759
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Dottor",
+                  "bbox": {
+                    "x0": 650,
+                    "y0": 723,
+                    "x1": 797,
+                    "y1": 759
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Riziero",
+                  "bbox": {
+                    "x0": 819,
+                    "y0": 722,
+                    "x1": 981,
+                    "y1": 759
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Corrado",
+                  "bbox": {
+                    "x0": 1004,
+                    "y0": 722,
+                    "x1": 1187,
+                    "y1": 759
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Ruopolo,",
+                  "bbox": {
+                    "x0": 1210,
+                    "y0": 722,
+                    "x1": 1415,
+                    "y1": 771
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Notaio",
+                  "bbox": {
+                    "x0": 1438,
+                    "y0": 722,
+                    "x1": 1590,
+                    "y1": 759
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "in",
+                  "bbox": {
+                    "x0": 1612,
+                    "y0": 722,
+                    "x1": 1658,
+                    "y1": 758
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Caivano",
+                  "bbox": {
+                    "x0": 1680,
+                    "y0": 722,
+                    "x1": 1865,
+                    "y1": 759
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "(NA),",
+                  "bbox": {
+                    "x0": 322,
+                    "y0": 790,
+                    "x1": 444,
+                    "y1": 834
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "iscritto",
+                  "bbox": {
+                    "x0": 459,
+                    "y0": 790,
+                    "x1": 615,
+                    "y1": 827
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "nel",
+                  "bbox": {
+                    "x0": 631,
+                    "y0": 790,
+                    "x1": 700,
+                    "y1": 827
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Ruolo",
+                  "bbox": {
+                    "x0": 717,
+                    "y0": 790,
+                    "x1": 851,
+                    "y1": 827
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "dei",
+                  "bbox": {
+                    "x0": 869,
+                    "y0": 790,
+                    "x1": 937,
+                    "y1": 827
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Distretti",
+                  "bbox": {
+                    "x0": 953,
+                    "y0": 790,
+                    "x1": 1141,
+                    "y1": 827
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Notarili",
+                  "bbox": {
+                    "x0": 1158,
+                    "y0": 790,
+                    "x1": 1334,
+                    "y1": 827
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Riuniti",
+                  "bbox": {
+                    "x0": 1351,
+                    "y0": 790,
+                    "x1": 1511,
+                    "y1": 827
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "di",
+                  "bbox": {
+                    "x0": 1528,
+                    "y0": 790,
+                    "x1": 1571,
+                    "y1": 827
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Napoli,",
+                  "bbox": {
+                    "x0": 1588,
+                    "y0": 790,
+                    "x1": 1755,
+                    "y1": 839
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Tor-",
+                  "bbox": {
+                    "x0": 1770,
+                    "y0": 791,
+                    "x1": 1866,
+                    "y1": 827
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "re",
+                  "bbox": {
+                    "x0": 320,
+                    "y0": 869,
+                    "x1": 361,
+                    "y1": 894
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Annunziata",
+                  "bbox": {
+                    "x0": 377,
+                    "y0": 857,
+                    "x1": 646,
+                    "y1": 894
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "e",
+                  "bbox": {
+                    "x0": 662,
+                    "y0": 869,
+                    "x1": 683,
+                    "y1": 894
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Nola,",
+                  "bbox": {
+                    "x0": 700,
+                    "y0": 857,
+                    "x1": 821,
+                    "y1": 901
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "con",
+                  "bbox": {
+                    "x0": 838,
+                    "y0": 870,
+                    "x1": 915,
+                    "y1": 895
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "studio",
+                  "bbox": {
+                    "x0": 930,
+                    "y0": 858,
+                    "x1": 1067,
+                    "y1": 895
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "principale",
+                  "bbox": {
+                    "x0": 1083,
+                    "y0": 858,
+                    "x1": 1304,
+                    "y1": 908
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "in",
+                  "bbox": {
+                    "x0": 1321,
+                    "y0": 860,
+                    "x1": 1363,
+                    "y1": 894
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Caivano",
+                  "bbox": {
+                    "x0": 1378,
+                    "y0": 859,
+                    "x1": 1560,
+                    "y1": 895
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(NA)",
+                  "bbox": {
+                    "x0": 1578,
+                    "y0": 859,
+                    "x1": 1686,
+                    "y1": 905
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "via",
+                  "bbox": {
+                    "x0": 1703,
+                    "y0": 860,
+                    "x1": 1769,
+                    "y1": 895
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Sal-",
+                  "bbox": {
+                    "x0": 1785,
+                    "y0": 858,
+                    "x1": 1865,
+                    "y1": 895
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "vemini",
+                  "bbox": {
+                    "x0": 320,
+                    "y0": 927,
+                    "x1": 472,
+                    "y1": 962
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "n.",
+                  "bbox": {
+                    "x0": 486,
+                    "y0": 938,
+                    "x1": 524,
+                    "y1": 961
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "8,",
+                  "bbox": {
+                    "x0": 542,
+                    "y0": 927,
+                    "x1": 575,
+                    "y1": 969
+                  },
+                  "confidence": 0.94,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "SONO",
+                  "bbox": {
+                    "x0": 322,
+                    "y0": 993,
+                    "x1": 472,
+                    "y1": 1029
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "PRESENTI:",
+                  "bbox": {
+                    "x0": 489,
+                    "y0": 993,
+                    "x1": 749,
+                    "y1": 1029
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "quale",
+                  "bbox": {
+                    "x0": 852,
+                    "y0": 1060,
+                    "x1": 970,
+                    "y1": 1110
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "parte",
+                  "bbox": {
+                    "x0": 983,
+                    "y0": 1064,
+                    "x1": 1100,
+                    "y1": 1110
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "venditrice",
+                  "bbox": {
+                    "x0": 1115,
+                    "y0": 1060,
+                    "x1": 1334,
+                    "y1": 1097
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "-",
+                  "bbox": {
+                    "x0": 320,
+                    "y0": 1149,
+                    "x1": 334,
+                    "y1": 1153
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "ESPOSITO",
+                  "bbox": {
+                    "x0": 354,
+                    "y0": 1128,
+                    "x1": 607,
+                    "y1": 1164
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "FRANCESCO,",
+                  "bbox": {
+                    "x0": 629,
+                    "y0": 1128,
+                    "x1": 955,
+                    "y1": 1171
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "nato",
+                  "bbox": {
+                    "x0": 975,
+                    "y0": 1132,
+                    "x1": 1071,
+                    "y1": 1164
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "a",
+                  "bbox": {
+                    "x0": 1091,
+                    "y0": 1140,
+                    "x1": 1113,
+                    "y1": 1164
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Scisciano",
+                  "bbox": {
+                    "x0": 1133,
+                    "y0": 1128,
+                    "x1": 1332,
+                    "y1": 1164
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(NA)",
+                  "bbox": {
+                    "x0": 1353,
+                    "y0": 1128,
+                    "x1": 1461,
+                    "y1": 1174
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "il",
+                  "bbox": {
+                    "x0": 1481,
+                    "y0": 1127,
+                    "x1": 1508,
+                    "y1": 1163
+                  },
+                  "confidence": 0.88,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "26",
+                  "bbox": {
+                    "x0": 1527,
+                    "y0": 1128,
+                    "x1": 1574,
+                    "y1": 1164
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "agosto",
+                  "bbox": {
+                    "x0": 1595,
+                    "y0": 1132,
+                    "x1": 1736,
+                    "y1": 1177
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "1946,",
+                  "bbox": {
+                    "x0": 1757,
+                    "y0": 1128,
+                    "x1": 1864,
+                    "y1": 1171
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "codice",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 1195,
+                    "x1": 458,
+                    "y1": 1232
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "fiscale:",
+                  "bbox": {
+                    "x0": 483,
+                    "y0": 1195,
+                    "x1": 629,
+                    "y1": 1232
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "SPS",
+                  "bbox": {
+                    "x0": 656,
+                    "y0": 1196,
+                    "x1": 736,
+                    "y1": 1232
+                  },
+                  "confidence": 0.95,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "FNC",
+                  "bbox": {
+                    "x0": 760,
+                    "y0": 1196,
+                    "x1": 862,
+                    "y1": 1232
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "46M26",
+                  "bbox": {
+                    "x0": 885,
+                    "y0": 1196,
+                    "x1": 1030,
+                    "y1": 1232
+                  },
+                  "confidence": 0.89,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "1540M,",
+                  "bbox": {
+                    "x0": 1055,
+                    "y0": 1196,
+                    "x1": 1203,
+                    "y1": 1239
+                  },
+                  "confidence": 0.86,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "residente",
+                  "bbox": {
+                    "x0": 1228,
+                    "y0": 1195,
+                    "x1": 1437,
+                    "y1": 1232
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "a",
+                  "bbox": {
+                    "x0": 1462,
+                    "y0": 1207,
+                    "x1": 1484,
+                    "y1": 1232
+                  },
+                  "confidence": 0.76,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Scisciano",
+                  "bbox": {
+                    "x0": 1530,
+                    "y0": 1196,
+                    "x1": 1730,
+                    "y1": 1232
+                  },
+                  "confidence": 0.76,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(NA)",
+                  "bbox": {
+                    "x0": 1756,
+                    "y0": 1196,
+                    "x1": 1864,
+                    "y1": 1242
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "via",
+                  "bbox": {
+                    "x0": 320,
+                    "y0": 1264,
+                    "x1": 386,
+                    "y1": 1299
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Torre",
+                  "bbox": {
+                    "x0": 400,
+                    "y0": 1263,
+                    "x1": 519,
+                    "y1": 1299
+                  },
+                  "confidence": 0.78,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "n.",
+                  "bbox": {
+                    "x0": 533,
+                    "y0": 1275,
+                    "x1": 571,
+                    "y1": 1298
+                  },
+                  "confidence": 0.78,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "11",
+                  "bbox": {
+                    "x0": 590,
+                    "y0": 1263,
+                    "x1": 633,
+                    "y1": 1298
+                  },
+                  "confidence": 0.96,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "-",
+                  "bbox": {
+                    "x0": 320,
+                    "y0": 1352,
+                    "x1": 334,
+                    "y1": 1356
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "ESPOSITO",
+                  "bbox": {
+                    "x0": 350,
+                    "y0": 1331,
+                    "x1": 604,
+                    "y1": 1367
+                  },
+                  "confidence": 0.89,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "MARIANO,",
+                  "bbox": {
+                    "x0": 621,
+                    "y0": 1331,
+                    "x1": 895,
+                    "y1": 1374
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "nato",
+                  "bbox": {
+                    "x0": 911,
+                    "y0": 1335,
+                    "x1": 1007,
+                    "y1": 1367
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "ad",
+                  "bbox": {
+                    "x0": 1023,
+                    "y0": 1330,
+                    "x1": 1075,
+                    "y1": 1367
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Avellino",
+                  "bbox": {
+                    "x0": 1091,
+                    "y0": 1330,
+                    "x1": 1280,
+                    "y1": 1367
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(AV)",
+                  "bbox": {
+                    "x0": 1297,
+                    "y0": 1331,
+                    "x1": 1400,
+                    "y1": 1377
+                  },
+                  "confidence": 0.86,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "il",
+                  "bbox": {
+                    "x0": 1417,
+                    "y0": 1330,
+                    "x1": 1443,
+                    "y1": 1366
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "07",
+                  "bbox": {
+                    "x0": 1460,
+                    "y0": 1332,
+                    "x1": 1508,
+                    "y1": 1367
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "marzo",
+                  "bbox": {
+                    "x0": 1522,
+                    "y0": 1343,
+                    "x1": 1661,
+                    "y1": 1367
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "1984,",
+                  "bbox": {
+                    "x0": 1678,
+                    "y0": 1331,
+                    "x1": 1785,
+                    "y1": 1374
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "co-",
+                  "bbox": {
+                    "x0": 1802,
+                    "y0": 1343,
+                    "x1": 1865,
+                    "y1": 1367
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "dice",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 1397,
+                    "x1": 409,
+                    "y1": 1434
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "fiscale:",
+                  "bbox": {
+                    "x0": 430,
+                    "y0": 1397,
+                    "x1": 576,
+                    "y1": 1434
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "SPS",
+                  "bbox": {
+                    "x0": 600,
+                    "y0": 1398,
+                    "x1": 679,
+                    "y1": 1434
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "MRN",
+                  "bbox": {
+                    "x0": 700,
+                    "y0": 1398,
+                    "x1": 819,
+                    "y1": 1434
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "84C07",
+                  "bbox": {
+                    "x0": 841,
+                    "y0": 1398,
+                    "x1": 975,
+                    "y1": 1434
+                  },
+                  "confidence": 0.89,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "A509V,",
+                  "bbox": {
+                    "x0": 994,
+                    "y0": 1398,
+                    "x1": 1153,
+                    "y1": 1441
+                  },
+                  "confidence": 0.59,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "residente",
+                  "bbox": {
+                    "x0": 1174,
+                    "y0": 1397,
+                    "x1": 1383,
+                    "y1": 1434
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "a",
+                  "bbox": {
+                    "x0": 1405,
+                    "y0": 1409,
+                    "x1": 1427,
+                    "y1": 1434
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Scisciano",
+                  "bbox": {
+                    "x0": 1448,
+                    "y0": 1398,
+                    "x1": 1648,
+                    "y1": 1434
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(NA)",
+                  "bbox": {
+                    "x0": 1670,
+                    "y0": 1398,
+                    "x1": 1778,
+                    "y1": 1444
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "via",
+                  "bbox": {
+                    "x0": 1800,
+                    "y0": 1399,
+                    "x1": 1865,
+                    "y1": 1434
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "Torre",
+                  "bbox": {
+                    "x0": 320,
+                    "y0": 1466,
+                    "x1": 438,
+                    "y1": 1502
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "n.",
+                  "bbox": {
+                    "x0": 458,
+                    "y0": 1478,
+                    "x1": 496,
+                    "y1": 1501
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "11,",
+                  "bbox": {
+                    "x0": 521,
+                    "y0": 1466,
+                    "x1": 578,
+                    "y1": 1509
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "il",
+                  "bbox": {
+                    "x0": 599,
+                    "y0": 1465,
+                    "x1": 626,
+                    "y1": 1501
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "quale",
+                  "bbox": {
+                    "x0": 647,
+                    "y0": 1465,
+                    "x1": 765,
+                    "y1": 1515
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "interviene",
+                  "bbox": {
+                    "x0": 786,
+                    "y0": 1467,
+                    "x1": 1007,
+                    "y1": 1502
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "al",
+                  "bbox": {
+                    "x0": 1028,
+                    "y0": 1465,
+                    "x1": 1064,
+                    "y1": 1502
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "presente",
+                  "bbox": {
+                    "x0": 1085,
+                    "y0": 1470,
+                    "x1": 1270,
+                    "y1": 1515
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "atto",
+                  "bbox": {
+                    "x0": 1292,
+                    "y0": 1470,
+                    "x1": 1374,
+                    "y1": 1502
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "in",
+                  "bbox": {
+                    "x0": 1394,
+                    "y0": 1467,
+                    "x1": 1436,
+                    "y1": 1501
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "conto",
+                  "bbox": {
+                    "x0": 1457,
+                    "y0": 1470,
+                    "x1": 1576,
+                    "y1": 1502
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "proprio",
+                  "bbox": {
+                    "x0": 1596,
+                    "y0": 1467,
+                    "x1": 1762,
+                    "y1": 1515
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "e",
+                  "bbox": {
+                    "x0": 1782,
+                    "y0": 1478,
+                    "x1": 1803,
+                    "y1": 1502
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "in",
+                  "bbox": {
+                    "x0": 1824,
+                    "y0": 1467,
+                    "x1": 1866,
+                    "y1": 1501
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "rappresentanza",
+                  "bbox": {
+                    "x0": 320,
+                    "y0": 1537,
+                    "x1": 661,
+                    "y1": 1582
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "della",
+                  "bbox": {
+                    "x0": 686,
+                    "y0": 1532,
+                    "x1": 791,
+                    "y1": 1569
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "signora",
+                  "bbox": {
+                    "x0": 816,
+                    "y0": 1534,
+                    "x1": 978,
+                    "y1": 1582
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "ESPOSITO",
+                  "bbox": {
+                    "x0": 1003,
+                    "y0": 1533,
+                    "x1": 1256,
+                    "y1": 1569
+                  },
+                  "confidence": 0.89,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "GIOVANNA,",
+                  "bbox": {
+                    "x0": 1283,
+                    "y0": 1533,
+                    "x1": 1593,
+                    "y1": 1576
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "nata",
+                  "bbox": {
+                    "x0": 1617,
+                    "y0": 1537,
+                    "x1": 1711,
+                    "y1": 1569
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "ad",
+                  "bbox": {
+                    "x0": 1736,
+                    "y0": 1532,
+                    "x1": 1788,
+                    "y1": 1569
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "A-",
+                  "bbox": {
+                    "x0": 1812,
+                    "y0": 1533,
+                    "x1": 1865,
+                    "y1": 1568
+                  },
+                  "confidence": 0.96,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "vellino",
+                  "bbox": {
+                    "x0": 320,
+                    "y0": 1600,
+                    "x1": 470,
+                    "y1": 1637
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(AV)",
+                  "bbox": {
+                    "x0": 499,
+                    "y0": 1601,
+                    "x1": 602,
+                    "y1": 1647
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "il",
+                  "bbox": {
+                    "x0": 631,
+                    "y0": 1600,
+                    "x1": 658,
+                    "y1": 1636
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "28",
+                  "bbox": {
+                    "x0": 685,
+                    "y0": 1602,
+                    "x1": 732,
+                    "y1": 1637
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "settembre",
+                  "bbox": {
+                    "x0": 762,
+                    "y0": 1600,
+                    "x1": 975,
+                    "y1": 1637
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "1980,",
+                  "bbox": {
+                    "x0": 1005,
+                    "y0": 1601,
+                    "x1": 1112,
+                    "y1": 1644
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "codice",
+                  "bbox": {
+                    "x0": 1142,
+                    "y0": 1600,
+                    "x1": 1279,
+                    "y1": 1637
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "fiscale:",
+                  "bbox": {
+                    "x0": 1307,
+                    "y0": 1600,
+                    "x1": 1453,
+                    "y1": 1637
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "SPS",
+                  "bbox": {
+                    "x0": 1484,
+                    "y0": 1601,
+                    "x1": 1564,
+                    "y1": 1637
+                  },
+                  "confidence": 0.95,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "GNN",
+                  "bbox": {
+                    "x0": 1592,
+                    "y0": 1601,
+                    "x1": 1710,
+                    "y1": 1637
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "80P68",
+                  "bbox": {
+                    "x0": 1738,
+                    "y0": 1601,
+                    "x1": 1864,
+                    "y1": 1637
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "A509D,",
+                  "bbox": {
+                    "x0": 320,
+                    "y0": 1668,
+                    "x1": 482,
+                    "y1": 1711
+                  },
+                  "confidence": 0.7,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "residente",
+                  "bbox": {
+                    "x0": 504,
+                    "y0": 1667,
+                    "x1": 712,
+                    "y1": 1704
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "a",
+                  "bbox": {
+                    "x0": 751,
+                    "y0": 1679,
+                    "x1": 757,
+                    "y1": 1704
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "37WOODLANE",
+                  "bbox": {
+                    "x0": 777,
+                    "y0": 1668,
+                    "x1": 1133,
+                    "y1": 1704
+                  },
+                  "confidence": 0.87,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "FALMOUTH",
+                  "bbox": {
+                    "x0": 1155,
+                    "y0": 1668,
+                    "x1": 1448,
+                    "y1": 1704
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(INGHILTERRA);",
+                  "bbox": {
+                    "x0": 1471,
+                    "y0": 1668,
+                    "x1": 1864,
+                    "y1": 1714
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "giusta",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 1736,
+                    "x1": 453,
+                    "y1": 1784
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "procura,",
+                  "bbox": {
+                    "x0": 472,
+                    "y0": 1746,
+                    "x1": 655,
+                    "y1": 1784
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "non",
+                  "bbox": {
+                    "x0": 676,
+                    "y0": 1746,
+                    "x1": 763,
+                    "y1": 1771
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "revocata",
+                  "bbox": {
+                    "x0": 782,
+                    "y0": 1738,
+                    "x1": 969,
+                    "y1": 1771
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "come",
+                  "bbox": {
+                    "x0": 989,
+                    "y0": 1746,
+                    "x1": 1103,
+                    "y1": 1771
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "confermato",
+                  "bbox": {
+                    "x0": 1124,
+                    "y0": 1734,
+                    "x1": 1372,
+                    "y1": 1771
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "dal",
+                  "bbox": {
+                    "x0": 1393,
+                    "y0": 1734,
+                    "x1": 1459,
+                    "y1": 1771
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "costituito",
+                  "bbox": {
+                    "x0": 1480,
+                    "y0": 1736,
+                    "x1": 1683,
+                    "y1": 1771
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "rappre-",
+                  "bbox": {
+                    "x0": 1702,
+                    "y0": 1747,
+                    "x1": 1865,
+                    "y1": 1784
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "sentante,",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 1807,
+                    "x1": 514,
+                    "y1": 1846
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Repertorio",
+                  "bbox": {
+                    "x0": 536,
+                    "y0": 1803,
+                    "x1": 770,
+                    "y1": 1852
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "n.",
+                  "bbox": {
+                    "x0": 790,
+                    "y0": 1815,
+                    "x1": 829,
+                    "y1": 1838
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "1135",
+                  "bbox": {
+                    "x0": 854,
+                    "y0": 1803,
+                    "x1": 949,
+                    "y1": 1839
+                  },
+                  "confidence": 0.95,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "a",
+                  "bbox": {
+                    "x0": 972,
+                    "y0": 1815,
+                    "x1": 994,
+                    "y1": 1839
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "mio",
+                  "bbox": {
+                    "x0": 1014,
+                    "y0": 1804,
+                    "x1": 1098,
+                    "y1": 1839
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "ministero",
+                  "bbox": {
+                    "x0": 1119,
+                    "y0": 1804,
+                    "x1": 1328,
+                    "y1": 1839
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "in",
+                  "bbox": {
+                    "x0": 1349,
+                    "y0": 1804,
+                    "x1": 1391,
+                    "y1": 1838
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "data",
+                  "bbox": {
+                    "x0": 1412,
+                    "y0": 1802,
+                    "x1": 1506,
+                    "y1": 1839
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "30",
+                  "bbox": {
+                    "x0": 1527,
+                    "y0": 1804,
+                    "x1": 1574,
+                    "y1": 1839
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(trenta)",
+                  "bbox": {
+                    "x0": 1598,
+                    "y0": 1803,
+                    "x1": 1756,
+                    "y1": 1849
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "giu-",
+                  "bbox": {
+                    "x0": 1779,
+                    "y0": 1804,
+                    "x1": 1865,
+                    "y1": 1852
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "gno",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 1882,
+                    "x1": 402,
+                    "y1": 1919
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "2026",
+                  "bbox": {
+                    "x0": 417,
+                    "y0": 1870,
+                    "x1": 513,
+                    "y1": 1906
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "che",
+                  "bbox": {
+                    "x0": 530,
+                    "y0": 1869,
+                    "x1": 601,
+                    "y1": 1906
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "in",
+                  "bbox": {
+                    "x0": 617,
+                    "y0": 1871,
+                    "x1": 659,
+                    "y1": 1905
+                  },
+                  "confidence": 0.79,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "_",
+                  "bbox": {
+                    "x0": 668,
+                    "y0": 1865,
+                    "x1": 673,
+                    "y1": 1923
+                  },
+                  "confidence": 0.73,
+                  "corrected_text": "",
+                  "status": "corrected"
+                },
+                {
+                  "text": "originale",
+                  "bbox": {
+                    "x0": 687,
+                    "y0": 1869,
+                    "x1": 880,
+                    "y1": 1919
+                  },
+                  "confidence": 0.74,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "si",
+                  "bbox": {
+                    "x0": 896,
+                    "y0": 1871,
+                    "x1": 928,
+                    "y1": 1906
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "allega",
+                  "bbox": {
+                    "x0": 944,
+                    "y0": 1869,
+                    "x1": 1072,
+                    "y1": 1919
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "sub",
+                  "bbox": {
+                    "x0": 1088,
+                    "y0": 1869,
+                    "x1": 1163,
+                    "y1": 1906
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "\"A”.",
+                  "bbox": {
+                    "x0": 1180,
+                    "y0": 1870,
+                    "x1": 1263,
+                    "y1": 1905
+                  },
+                  "confidence": 0.28,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "quale",
+                  "bbox": {
+                    "x0": 847,
+                    "y0": 1937,
+                    "x1": 965,
+                    "y1": 1987
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "parte",
+                  "bbox": {
+                    "x0": 978,
+                    "y0": 1941,
+                    "x1": 1094,
+                    "y1": 1987
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "acquirente",
+                  "bbox": {
+                    "x0": 1110,
+                    "y0": 1938,
+                    "x1": 1338,
+                    "y1": 1987
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "-",
+                  "bbox": {
+                    "x0": 320,
+                    "y0": 2025,
+                    "x1": 335,
+                    "y1": 2030
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "RUGGIERO",
+                  "bbox": {
+                    "x0": 354,
+                    "y0": 2005,
+                    "x1": 635,
+                    "y1": 2041
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "ALESSANDRO,",
+                  "bbox": {
+                    "x0": 654,
+                    "y0": 2005,
+                    "x1": 1023,
+                    "y1": 2048
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "nato",
+                  "bbox": {
+                    "x0": 1042,
+                    "y0": 2009,
+                    "x1": 1139,
+                    "y1": 2041
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "a",
+                  "bbox": {
+                    "x0": 1158,
+                    "y0": 2017,
+                    "x1": 1180,
+                    "y1": 2041
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Napoli",
+                  "bbox": {
+                    "x0": 1199,
+                    "y0": 2004,
+                    "x1": 1349,
+                    "y1": 2054
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(NA)",
+                  "bbox": {
+                    "x0": 1370,
+                    "y0": 2005,
+                    "x1": 1478,
+                    "y1": 2051
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "il",
+                  "bbox": {
+                    "x0": 1498,
+                    "y0": 2004,
+                    "x1": 1525,
+                    "y1": 2040
+                  },
+                  "confidence": 0.87,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "17",
+                  "bbox": {
+                    "x0": 1546,
+                    "y0": 2005,
+                    "x1": 1593,
+                    "y1": 2040
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "aprile",
+                  "bbox": {
+                    "x0": 1612,
+                    "y0": 2004,
+                    "x1": 1736,
+                    "y1": 2054
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "1979,",
+                  "bbox": {
+                    "x0": 1757,
+                    "y0": 2005,
+                    "x1": 1864,
+                    "y1": 2048
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "codîice",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 2072,
+                    "x1": 458,
+                    "y1": 2109
+                  },
+                  "confidence": 0.7,
+                  "corrected_text": "codice",
+                  "status": "corrected"
+                },
+                {
+                  "text": "fiscale:",
+                  "bbox": {
+                    "x0": 476,
+                    "y0": 2072,
+                    "x1": 622,
+                    "y1": 2109
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "RGG",
+                  "bbox": {
+                    "x0": 642,
+                    "y0": 2073,
+                    "x1": 749,
+                    "y1": 2109
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "LSN",
+                  "bbox": {
+                    "x0": 767,
+                    "y0": 2073,
+                    "x1": 863,
+                    "y1": 2109
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "79D17",
+                  "bbox": {
+                    "x0": 881,
+                    "y0": 2073,
+                    "x1": 1018,
+                    "y1": 2109
+                  },
+                  "confidence": 0.54,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "F839I,",
+                  "bbox": {
+                    "x0": 1034,
+                    "y0": 2073,
+                    "x1": 1163,
+                    "y1": 2116
+                  },
+                  "confidence": 0.57,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "residente",
+                  "bbox": {
+                    "x0": 1181,
+                    "y0": 2071,
+                    "x1": 1390,
+                    "y1": 2108
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "a",
+                  "bbox": {
+                    "x0": 1409,
+                    "y0": 2083,
+                    "x1": 1431,
+                    "y1": 2108
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Portici",
+                  "bbox": {
+                    "x0": 1448,
+                    "y0": 2073,
+                    "x1": 1590,
+                    "y1": 2109
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(NA)",
+                  "bbox": {
+                    "x0": 1610,
+                    "y0": 2073,
+                    "x1": 1718,
+                    "y1": 2119
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Corso",
+                  "bbox": {
+                    "x0": 1737,
+                    "y0": 2073,
+                    "x1": 1865,
+                    "y1": 2109
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "Garibaldi",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 2139,
+                    "x1": 527,
+                    "y1": 2176
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "n.",
+                  "bbox": {
+                    "x0": 541,
+                    "y0": 2152,
+                    "x1": 579,
+                    "y1": 2175
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "185",
+                  "bbox": {
+                    "x0": 598,
+                    "y0": 2140,
+                    "x1": 668,
+                    "y1": 2176
+                  },
+                  "confidence": 0.96,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "Io",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 2208,
+                    "x1": 364,
+                    "y1": 2243
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Notaio",
+                  "bbox": {
+                    "x0": 391,
+                    "y0": 2206,
+                    "x1": 543,
+                    "y1": 2243
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "sono",
+                  "bbox": {
+                    "x0": 570,
+                    "y0": 2218,
+                    "x1": 675,
+                    "y1": 2243
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "certo",
+                  "bbox": {
+                    "x0": 702,
+                    "y0": 2210,
+                    "x1": 810,
+                    "y1": 2243
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "dell'identità",
+                  "bbox": {
+                    "x0": 838,
+                    "y0": 2205,
+                    "x1": 1112,
+                    "y1": 2243
+                  },
+                  "confidence": 0.89,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "personale",
+                  "bbox": {
+                    "x0": 1137,
+                    "y0": 2206,
+                    "x1": 1357,
+                    "y1": 2255
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "dei",
+                  "bbox": {
+                    "x0": 1385,
+                    "y0": 2206,
+                    "x1": 1452,
+                    "y1": 2243
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "costituiti,",
+                  "bbox": {
+                    "x0": 1479,
+                    "y0": 2206,
+                    "x1": 1690,
+                    "y1": 2250
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "i",
+                  "bbox": {
+                    "x0": 1723,
+                    "y0": 2208,
+                    "x1": 1729,
+                    "y1": 2242
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "quali",
+                  "bbox": {
+                    "x0": 1756,
+                    "y0": 2206,
+                    "x1": 1865,
+                    "y1": 2256
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "convengono",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 2286,
+                    "x1": 589,
+                    "y1": 2324
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "e",
+                  "bbox": {
+                    "x0": 604,
+                    "y0": 2287,
+                    "x1": 625,
+                    "y1": 2311
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "stipulano",
+                  "bbox": {
+                    "x0": 642,
+                    "y0": 2274,
+                    "x1": 847,
+                    "y1": 2324
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "quanto",
+                  "bbox": {
+                    "x0": 862,
+                    "y0": 2279,
+                    "x1": 1015,
+                    "y1": 2324
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "segue:",
+                  "bbox": {
+                    "x0": 1031,
+                    "y0": 2286,
+                    "x1": 1165,
+                    "y1": 2324
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "Art.1)",
+                  "bbox": {
+                    "x0": 710,
+                    "y0": 2341,
+                    "x1": 836,
+                    "y1": 2382
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "CONSENSO",
+                  "bbox": {
+                    "x0": 865,
+                    "y0": 2342,
+                    "x1": 1155,
+                    "y1": 2378
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "E",
+                  "bbox": {
+                    "x0": 1172,
+                    "y0": 2343,
+                    "x1": 1198,
+                    "y1": 2377
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "OGGETTO",
+                  "bbox": {
+                    "x0": 1215,
+                    "y0": 2342,
+                    "x1": 1474,
+                    "y1": 2378
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "Considerando",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 2409,
+                    "x1": 632,
+                    "y1": 2446
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "i",
+                  "bbox": {
+                    "x0": 652,
+                    "y0": 2411,
+                    "x1": 664,
+                    "y1": 2445
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "pregressi",
+                  "bbox": {
+                    "x0": 684,
+                    "y0": 2411,
+                    "x1": 883,
+                    "y1": 2459
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "accordi",
+                  "bbox": {
+                    "x0": 904,
+                    "y0": 2409,
+                    "x1": 1063,
+                    "y1": 2446
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "e",
+                  "bbox": {
+                    "x0": 1083,
+                    "y0": 2422,
+                    "x1": 1104,
+                    "y1": 2446
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "con",
+                  "bbox": {
+                    "x0": 1125,
+                    "y0": 2421,
+                    "x1": 1202,
+                    "y1": 2446
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "reciproco",
+                  "bbox": {
+                    "x0": 1221,
+                    "y0": 2411,
+                    "x1": 1426,
+                    "y1": 2459
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "consenso",
+                  "bbox": {
+                    "x0": 1446,
+                    "y0": 2421,
+                    "x1": 1645,
+                    "y1": 2446
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "di",
+                  "bbox": {
+                    "x0": 1666,
+                    "y0": 2409,
+                    "x1": 1707,
+                    "y1": 2446
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "tutti,",
+                  "bbox": {
+                    "x0": 1727,
+                    "y0": 2411,
+                    "x1": 1830,
+                    "y1": 2453
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "i",
+                  "bbox": {
+                    "x0": 1851,
+                    "y0": 2409,
+                    "x1": 1865,
+                    "y1": 2445
+                  },
+                  "confidence": 0.96,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "costituiti",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 2476,
+                    "x1": 520,
+                    "y1": 2513
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "ESPOSITO",
+                  "bbox": {
+                    "x0": 537,
+                    "y0": 2477,
+                    "x1": 790,
+                    "y1": 2513
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "FRANCESCO,",
+                  "bbox": {
+                    "x0": 807,
+                    "y0": 2477,
+                    "x1": 1134,
+                    "y1": 2521
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "per",
+                  "bbox": {
+                    "x0": 1150,
+                    "y0": 2490,
+                    "x1": 1222,
+                    "y1": 2527
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "la",
+                  "bbox": {
+                    "x0": 1237,
+                    "y0": 2477,
+                    "x1": 1274,
+                    "y1": 2514
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "quota",
+                  "bbox": {
+                    "x0": 1290,
+                    "y0": 2482,
+                    "x1": 1414,
+                    "y1": 2527
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "di",
+                  "bbox": {
+                    "x0": 1429,
+                    "y0": 2477,
+                    "x1": 1471,
+                    "y1": 2514
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "2/3",
+                  "bbox": {
+                    "x0": 1486,
+                    "y0": 2477,
+                    "x1": 1549,
+                    "y1": 2519
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(due",
+                  "bbox": {
+                    "x0": 1567,
+                    "y0": 2477,
+                    "x1": 1663,
+                    "y1": 2524
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "terzi),",
+                  "bbox": {
+                    "x0": 1679,
+                    "y0": 2478,
+                    "x1": 1804,
+                    "y1": 2524
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "E-",
+                  "bbox": {
+                    "x0": 1822,
+                    "y0": 2478,
+                    "x1": 1866,
+                    "y1": 2512
+                  },
+                  "confidence": 0.95,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "SPOSITO",
+                  "bbox": {
+                    "x0": 322,
+                    "y0": 2545,
+                    "x1": 544,
+                    "y1": 2581
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "MARIANO",
+                  "bbox": {
+                    "x0": 566,
+                    "y0": 2545,
+                    "x1": 828,
+                    "y1": 2581
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "e",
+                  "bbox": {
+                    "x0": 849,
+                    "y0": 2556,
+                    "x1": 870,
+                    "y1": 2581
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "ESPOSITO",
+                  "bbox": {
+                    "x0": 891,
+                    "y0": 2545,
+                    "x1": 1144,
+                    "y1": 2581
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "GIOVANNA,",
+                  "bbox": {
+                    "x0": 1167,
+                    "y0": 2545,
+                    "x1": 1478,
+                    "y1": 2588
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "come",
+                  "bbox": {
+                    "x0": 1498,
+                    "y0": 2556,
+                    "x1": 1614,
+                    "y1": 2581
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "sopra",
+                  "bbox": {
+                    "x0": 1635,
+                    "y0": 2556,
+                    "x1": 1757,
+                    "y1": 2593
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "rap-",
+                  "bbox": {
+                    "x0": 1776,
+                    "y0": 2556,
+                    "x1": 1866,
+                    "y1": 2593
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "presentata,",
+                  "bbox": {
+                    "x0": 320,
+                    "y0": 2616,
+                    "x1": 565,
+                    "y1": 2661
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "per",
+                  "bbox": {
+                    "x0": 585,
+                    "y0": 2625,
+                    "x1": 657,
+                    "y1": 2662
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "la",
+                  "bbox": {
+                    "x0": 675,
+                    "y0": 2612,
+                    "x1": 713,
+                    "y1": 2649
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "quota",
+                  "bbox": {
+                    "x0": 732,
+                    "y0": 2617,
+                    "x1": 856,
+                    "y1": 2662
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "di",
+                  "bbox": {
+                    "x0": 875,
+                    "y0": 2612,
+                    "x1": 917,
+                    "y1": 2649
+                  },
+                  "confidence": 0.88,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "1/6",
+                  "bbox": {
+                    "x0": 938,
+                    "y0": 2612,
+                    "x1": 999,
+                    "y1": 2654
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(un",
+                  "bbox": {
+                    "x0": 1020,
+                    "y0": 2613,
+                    "x1": 1093,
+                    "y1": 2659
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "sesto)",
+                  "bbox": {
+                    "x0": 1112,
+                    "y0": 2613,
+                    "x1": 1234,
+                    "y1": 2659
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "ciascuno,",
+                  "bbox": {
+                    "x0": 1255,
+                    "y0": 2614,
+                    "x1": 1455,
+                    "y1": 2656
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "vendono",
+                  "bbox": {
+                    "x0": 1475,
+                    "y0": 2612,
+                    "x1": 1669,
+                    "y1": 2649
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "al",
+                  "bbox": {
+                    "x0": 1688,
+                    "y0": 2612,
+                    "x1": 1726,
+                    "y1": 2649
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "costi-",
+                  "bbox": {
+                    "x0": 1746,
+                    "y0": 2612,
+                    "x1": 1866,
+                    "y1": 2649
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "tuito",
+                  "bbox": {
+                    "x0": 320,
+                    "y0": 2679,
+                    "x1": 425,
+                    "y1": 2716
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "RUGGIERO",
+                  "bbox": {
+                    "x0": 453,
+                    "y0": 2680,
+                    "x1": 734,
+                    "y1": 2716
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "ALESSANDRO",
+                  "bbox": {
+                    "x0": 762,
+                    "y0": 2680,
+                    "x1": 1118,
+                    "y1": 2716
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "che",
+                  "bbox": {
+                    "x0": 1147,
+                    "y0": 2680,
+                    "x1": 1218,
+                    "y1": 2717
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "accetta",
+                  "bbox": {
+                    "x0": 1247,
+                    "y0": 2685,
+                    "x1": 1395,
+                    "y1": 2717
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "ed",
+                  "bbox": {
+                    "x0": 1421,
+                    "y0": 2680,
+                    "x1": 1473,
+                    "y1": 2717
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "acquista",
+                  "bbox": {
+                    "x0": 1501,
+                    "y0": 2682,
+                    "x1": 1681,
+                    "y1": 2730
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "la",
+                  "bbox": {
+                    "x0": 1707,
+                    "y0": 2679,
+                    "x1": 1747,
+                    "y1": 2716
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "pro-",
+                  "bbox": {
+                    "x0": 1773,
+                    "y0": 2691,
+                    "x1": 1866,
+                    "y1": 2728
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "prietà",
+                  "bbox": {
+                    "x0": 320,
+                    "y0": 2746,
+                    "x1": 451,
+                    "y1": 2796
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "dell'unità",
+                  "bbox": {
+                    "x0": 468,
+                    "y0": 2746,
+                    "x1": 683,
+                    "y1": 2784
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "immobiliare",
+                  "bbox": {
+                    "x0": 698,
+                    "y0": 2747,
+                    "x1": 978,
+                    "y1": 2784
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "di",
+                  "bbox": {
+                    "x0": 994,
+                    "y0": 2747,
+                    "x1": 1036,
+                    "y1": 2784
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "cui",
+                  "bbox": {
+                    "x0": 1052,
+                    "y0": 2749,
+                    "x1": 1115,
+                    "y1": 2784
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "alla",
+                  "bbox": {
+                    "x0": 1132,
+                    "y0": 2747,
+                    "x1": 1208,
+                    "y1": 2784
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "seguente",
+                  "bbox": {
+                    "x0": 1223,
+                    "y0": 2752,
+                    "x1": 1416,
+                    "y1": 2797
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "descrizione:",
+                  "bbox": {
+                    "x0": 1432,
+                    "y0": 2747,
+                    "x1": 1691,
+                    "y1": 2784
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "abitazione",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 2815,
+                    "x1": 545,
+                    "y1": 2852
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "ad",
+                  "bbox": {
+                    "x0": 564,
+                    "y0": 2815,
+                    "x1": 616,
+                    "y1": 2852
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "uso",
+                  "bbox": {
+                    "x0": 633,
+                    "y0": 2827,
+                    "x1": 710,
+                    "y1": 2852
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "civile",
+                  "bbox": {
+                    "x0": 729,
+                    "y0": 2815,
+                    "x1": 843,
+                    "y1": 2852
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "con",
+                  "bbox": {
+                    "x0": 862,
+                    "y0": 2828,
+                    "x1": 939,
+                    "y1": 2852
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "annessi",
+                  "bbox": {
+                    "x0": 956,
+                    "y0": 2817,
+                    "x1": 1117,
+                    "y1": 2852
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "vani",
+                  "bbox": {
+                    "x0": 1134,
+                    "y0": 2817,
+                    "x1": 1228,
+                    "y1": 2852
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "accessori,",
+                  "bbox": {
+                    "x0": 1247,
+                    "y0": 2817,
+                    "x1": 1453,
+                    "y1": 2859
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "antistante",
+                  "bbox": {
+                    "x0": 1472,
+                    "y0": 2817,
+                    "x1": 1685,
+                    "y1": 2852
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "corte",
+                  "bbox": {
+                    "x0": 1703,
+                    "y0": 2820,
+                    "x1": 1809,
+                    "y1": 2852
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "e-",
+                  "bbox": {
+                    "x0": 1827,
+                    "y0": 2828,
+                    "x1": 1865,
+                    "y1": 2852
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "sclusiva",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 2882,
+                    "x1": 495,
+                    "y1": 2919
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "di",
+                  "bbox": {
+                    "x0": 512,
+                    "y0": 2882,
+                    "x1": 554,
+                    "y1": 2919
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "mq.",
+                  "bbox": {
+                    "x0": 571,
+                    "y0": 2895,
+                    "x1": 651,
+                    "y1": 2932
+                  },
+                  "confidence": 0.87,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "83",
+                  "bbox": {
+                    "x0": 671,
+                    "y0": 2884,
+                    "x1": 717,
+                    "y1": 2919
+                  },
+                  "confidence": 0.96,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "e",
+                  "bbox": {
+                    "x0": 734,
+                    "y0": 2895,
+                    "x1": 755,
+                    "y1": 2919
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "retrostante",
+                  "bbox": {
+                    "x0": 772,
+                    "y0": 2887,
+                    "x1": 1008,
+                    "y1": 2919
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "corte",
+                  "bbox": {
+                    "x0": 1026,
+                    "y0": 2887,
+                    "x1": 1132,
+                    "y1": 2919
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "esclusiva",
+                  "bbox": {
+                    "x0": 1148,
+                    "y0": 2882,
+                    "x1": 1348,
+                    "y1": 2919
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "di",
+                  "bbox": {
+                    "x0": 1365,
+                    "y0": 2882,
+                    "x1": 1407,
+                    "y1": 2919
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "mq.",
+                  "bbox": {
+                    "x0": 1423,
+                    "y0": 2895,
+                    "x1": 1503,
+                    "y1": 2932
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "60,",
+                  "bbox": {
+                    "x0": 1523,
+                    "y0": 2883,
+                    "x1": 1581,
+                    "y1": 2926
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "e",
+                  "bbox": {
+                    "x0": 1612,
+                    "y0": 2895,
+                    "x1": 1633,
+                    "y1": 2919
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "pertinen-",
+                  "bbox": {
+                    "x0": 1664,
+                    "y0": 2884,
+                    "x1": 1865,
+                    "y1": 2932
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "ziale",
+                  "bbox": {
+                    "x0": 320,
+                    "y0": 2949,
+                    "x1": 420,
+                    "y1": 2986
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "posto",
+                  "bbox": {
+                    "x0": 440,
+                    "y0": 2954,
+                    "x1": 560,
+                    "y1": 2999
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "auto",
+                  "bbox": {
+                    "x0": 580,
+                    "y0": 2954,
+                    "x1": 676,
+                    "y1": 2986
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "scoperto",
+                  "bbox": {
+                    "x0": 696,
+                    "y0": 2954,
+                    "x1": 881,
+                    "y1": 2999
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "sita",
+                  "bbox": {
+                    "x0": 901,
+                    "y0": 2951,
+                    "x1": 975,
+                    "y1": 2986
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "nel",
+                  "bbox": {
+                    "x0": 993,
+                    "y0": 2949,
+                    "x1": 1059,
+                    "y1": 2986
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Comune",
+                  "bbox": {
+                    "x0": 1080,
+                    "y0": 2950,
+                    "x1": 1270,
+                    "y1": 2986
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "di",
+                  "bbox": {
+                    "x0": 1293,
+                    "y0": 2949,
+                    "x1": 1335,
+                    "y1": 2986
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Praia",
+                  "bbox": {
+                    "x0": 1356,
+                    "y0": 2949,
+                    "x1": 1469,
+                    "y1": 2986
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "a",
+                  "bbox": {
+                    "x0": 1507,
+                    "y0": 2961,
+                    "x1": 1511,
+                    "y1": 2986
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Mare",
+                  "bbox": {
+                    "x0": 1532,
+                    "y0": 2951,
+                    "x1": 1647,
+                    "y1": 2986
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(CS)",
+                  "bbox": {
+                    "x0": 1669,
+                    "y0": 2949,
+                    "x1": 1763,
+                    "y1": 2990
+                  },
+                  "confidence": 0.63,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "alla",
+                  "bbox": {
+                    "x0": 1785,
+                    "y0": 2949,
+                    "x1": 1865,
+                    "y1": 2986
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "Contrada",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 3017,
+                    "x1": 529,
+                    "y1": 3054
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Foresta,",
+                  "bbox": {
+                    "x0": 545,
+                    "y0": 3019,
+                    "x1": 718,
+                    "y1": 3061
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "il",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 3085,
+                    "x1": 345,
+                    "y1": 3122
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "tutto",
+                  "bbox": {
+                    "x0": 367,
+                    "y0": 3089,
+                    "x1": 461,
+                    "y1": 3122
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "censito",
+                  "bbox": {
+                    "x0": 482,
+                    "y0": 3086,
+                    "x1": 618,
+                    "y1": 3122
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "nel",
+                  "bbox": {
+                    "x0": 639,
+                    "y0": 3085,
+                    "x1": 696,
+                    "y1": 3122
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Catasto",
+                  "bbox": {
+                    "x0": 718,
+                    "y0": 3086,
+                    "x1": 866,
+                    "y1": 3122
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Fabbricati",
+                  "bbox": {
+                    "x0": 886,
+                    "y0": 3085,
+                    "x1": 1087,
+                    "y1": 3122
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "del",
+                  "bbox": {
+                    "x0": 1106,
+                    "y0": 3085,
+                    "x1": 1161,
+                    "y1": 3122
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Comune",
+                  "bbox": {
+                    "x0": 1183,
+                    "y0": 3086,
+                    "x1": 1360,
+                    "y1": 3122
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "di",
+                  "bbox": {
+                    "x0": 1380,
+                    "y0": 3085,
+                    "x1": 1422,
+                    "y1": 3122
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Praia",
+                  "bbox": {
+                    "x0": 1440,
+                    "y0": 3086,
+                    "x1": 1562,
+                    "y1": 3122
+                  },
+                  "confidence": 0.89,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "a",
+                  "bbox": {
+                    "x0": 1597,
+                    "y0": 3097,
+                    "x1": 1607,
+                    "y1": 3122
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Mare",
+                  "bbox": {
+                    "x0": 1624,
+                    "y0": 3087,
+                    "x1": 1741,
+                    "y1": 3122
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(CS),",
+                  "bbox": {
+                    "x0": 1763,
+                    "y0": 3085,
+                    "x1": 1863,
+                    "y1": 3129
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "come",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 3164,
+                    "x1": 432,
+                    "y1": 3189
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "segue:",
+                  "bbox": {
+                    "x0": 446,
+                    "y0": 3164,
+                    "x1": 576,
+                    "y1": 3202
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "-",
+                  "bbox": {
+                    "x0": 320,
+                    "y0": 3241,
+                    "x1": 334,
+                    "y1": 3245
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Foglio",
+                  "bbox": {
+                    "x0": 353,
+                    "y0": 3219,
+                    "x1": 490,
+                    "y1": 3269
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "61,",
+                  "bbox": {
+                    "x0": 510,
+                    "y0": 3221,
+                    "x1": 568,
+                    "y1": 3263
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Mappale",
+                  "bbox": {
+                    "x0": 588,
+                    "y0": 3219,
+                    "x1": 781,
+                    "y1": 3269
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "506,",
+                  "bbox": {
+                    "x0": 801,
+                    "y0": 3222,
+                    "x1": 885,
+                    "y1": 3263
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Sub.",
+                  "bbox": {
+                    "x0": 906,
+                    "y0": 3219,
+                    "x1": 997,
+                    "y1": 3256
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "1,",
+                  "bbox": {
+                    "x0": 1019,
+                    "y0": 3221,
+                    "x1": 1052,
+                    "y1": 3263
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "cat.",
+                  "bbox": {
+                    "x0": 1073,
+                    "y0": 3224,
+                    "x1": 1144,
+                    "y1": 3256
+                  },
+                  "confidence": 0.89,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "A/3,",
+                  "bbox": {
+                    "x0": 1165,
+                    "y0": 3219,
+                    "x1": 1254,
+                    "y1": 3263
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "classe",
+                  "bbox": {
+                    "x0": 1275,
+                    "y0": 3219,
+                    "x1": 1399,
+                    "y1": 3256
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "1,",
+                  "bbox": {
+                    "x0": 1421,
+                    "y0": 3220,
+                    "x1": 1453,
+                    "y1": 3263
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "vani",
+                  "bbox": {
+                    "x0": 1473,
+                    "y0": 3221,
+                    "x1": 1568,
+                    "y1": 3256
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "4",
+                  "bbox": {
+                    "x0": 1586,
+                    "y0": 3221,
+                    "x1": 1610,
+                    "y1": 3255
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "(Superficie",
+                  "bbox": {
+                    "x0": 1630,
+                    "y0": 3219,
+                    "x1": 1865,
+                    "y1": 3269
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "catastale",
+                  "bbox": {
+                    "x0": 321,
+                    "y0": 3287,
+                    "x1": 506,
+                    "y1": 3324
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "totale",
+                  "bbox": {
+                    "x0": 522,
+                    "y0": 3287,
+                    "x1": 642,
+                    "y1": 3324
+                  },
+                  "confidence": 0.89,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "mq.",
+                  "bbox": {
+                    "x0": 658,
+                    "y0": 3300,
+                    "x1": 738,
+                    "y1": 3337
+                  },
+                  "confidence": 0.25,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "49),",
+                  "bbox": {
+                    "x0": 754,
+                    "y0": 3288,
+                    "x1": 831,
+                    "y1": 3334
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Rendita",
+                  "bbox": {
+                    "x0": 847,
+                    "y0": 3287,
+                    "x1": 1017,
+                    "y1": 3324
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Euro",
+                  "bbox": {
+                    "x0": 1033,
+                    "y0": 3288,
+                    "x1": 1137,
+                    "y1": 3324
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "247,90;",
+                  "bbox": {
+                    "x0": 1152,
+                    "y0": 3289,
+                    "x1": 1299,
+                    "y1": 3331
+                  },
+                  "confidence": 0.89,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            }
+          ],
+          "block_type": "text",
+          "label": "",
+          "replacement_text": "Repertorio n. 1182 Raccolta n. 912\nCOMPRAVENDITA\nREPUBBLICA ITALIANA\nIl giorno 10 (dieci) del mese di luglio dell'anno 2026 (duemilaventi-\nsei) in Afragola (NA) via Amendola n. 126 in Credit Agricole\nInnanzi a me Dottor Riziero Corrado Ruopolo, Notaio in Caivano\n(NA), iscritto nel Ruolo dei Distretti Notarili Riuniti di Napoli, Tor-\nre Annunziata e Nola, con studio principale in Caivano (NA) via Sal-\nvemini n. 8,\nSONO PRESENTI:\nquale parte venditrice\n- ESPOSITO FRANCESCO, nato a Scisciano (NA) il 26 agosto 1946,\ncodice fiscale: SPS FNC 46M26 1540M, residente a Scisciano (NA)\nvia Torre n. 11\n\nquale parte acquirente\n- RUGGIERO ALESSANDRO, nato a Napoli (NA) il 17 aprile 1979,\ncodice fiscale: RGG LSN 79D17 F839I, residente a Portici (NA) Corso\nGaribaldi n. 185\nIo Notaio sono certo dell'identita' personale dei costituiti, i quali\nconvengono e stipulano quanto segue:\nArt.1) CONSENSO E OGGETTO\nConsiderando i pregressi accordi e con reciproco consenso di tutti, il\ncostituito ESPOSITO FRANCESCO, per l'intera quota, vende al costi-\ntuito RUGGIERO ALESSANDRO che accetta ed acquista la pro-\nprieta' dell'unita' immobiliare di cui alla seguente descrizione:\nabitazione ad uso civile con annessi vani accessori, antistante corte e-\nsclusiva di mq. 83 e retrostante corte esclusiva di mq. 60, e pertinen-\nziale posto auto scoperto sita nel Comune di Praia a Mare (CS) alla\nContrada Foresta,\nil tutto censito nel Catasto Fabbricati del Comune di Praia a Mare (CS),\ncome segue:\n- Foglio 61, Mappale 506, Sub. 1, cat. A/3, classe 1, vani 4 (Superficie\ncatastale totale mq. 49), Rendita Euro 247,90;"
+        },
+        {
+          "bbox": {
+            "x0": 1085,
+            "y0": 3413,
+            "x1": 1101,
+            "y1": 3439
+          },
+          "lines": [
+            {
+              "words": [
+                {
+                  "text": "1",
+                  "bbox": {
+                    "x0": 1085,
+                    "y0": 3413,
+                    "x1": 1101,
+                    "y1": 3439
+                  },
+                  "confidence": 0.95,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            }
+          ],
+          "block_type": "text",
+          "label": ""
+        },
+        {
+          "bbox": {
+            "x0": 1945,
+            "y0": 314,
+            "x1": 2395,
+            "y1": 397
+          },
+          "lines": [
+            {
+              "words": [
+                {
+                  "text": "Riziero",
+                  "bbox": {
+                    "x0": 1945,
+                    "y0": 315,
+                    "x1": 2069,
+                    "y1": 345
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Corrado",
+                  "bbox": {
+                    "x0": 2084,
+                    "y0": 314,
+                    "x1": 2228,
+                    "y1": 345
+                  },
+                  "confidence": 0.81,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Ruopolo",
+                  "bbox": {
+                    "x0": 2242,
+                    "y0": 314,
+                    "x1": 2395,
+                    "y1": 356
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "Notaio",
+                  "bbox": {
+                    "x0": 2108,
+                    "y0": 367,
+                    "x1": 2230,
+                    "y1": 397
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            }
+          ],
+          "block_type": "text",
+          "label": ""
+        },
+        {
+          "bbox": {
+            "x0": 1945,
+            "y0": 649,
+            "x1": 2285,
+            "y1": 686
+          },
+          "lines": [
+            {
+              "words": [
+                {
+                  "text": "Registrato",
+                  "bbox": {
+                    "x0": 1945,
+                    "y0": 651,
+                    "x1": 2109,
+                    "y1": 686
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "a",
+                  "bbox": {
+                    "x0": 2123,
+                    "y0": 657,
+                    "x1": 2139,
+                    "y1": 679
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Napoli",
+                  "bbox": {
+                    "x0": 2156,
+                    "y0": 649,
+                    "x1": 2254,
+                    "y1": 686
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "1",
+                  "bbox": {
+                    "x0": 2272,
+                    "y0": 651,
+                    "x1": 2285,
+                    "y1": 678
+                  },
+                  "confidence": 0.96,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            }
+          ],
+          "block_type": "text",
+          "label": ""
+        },
+        {
+          "bbox": {
+            "x0": 1946,
+            "y0": 740,
+            "x1": 2260,
+            "y1": 775
+          },
+          "lines": [
+            {
+              "words": [
+                {
+                  "text": "in",
+                  "bbox": {
+                    "x0": 1946,
+                    "y0": 742,
+                    "x1": 1971,
+                    "y1": 769
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "data",
+                  "bbox": {
+                    "x0": 1986,
+                    "y0": 740,
+                    "x1": 2055,
+                    "y1": 770
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "17/07/2026",
+                  "bbox": {
+                    "x0": 2073,
+                    "y0": 740,
+                    "x1": 2260,
+                    "y1": 775
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            }
+          ],
+          "block_type": "text",
+          "label": ""
+        },
+        {
+          "bbox": {
+            "x0": 1946,
+            "y0": 831,
+            "x1": 2248,
+            "y1": 860
+          },
+          "lines": [
+            {
+              "words": [
+                {
+                  "text": "N°",
+                  "bbox": {
+                    "x0": 1946,
+                    "y0": 831,
+                    "x1": 1984,
+                    "y1": 859
+                  },
+                  "confidence": 0.94,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "34001",
+                  "bbox": {
+                    "x0": 2000,
+                    "y0": 831,
+                    "x1": 2097,
+                    "y1": 860
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "Serie",
+                  "bbox": {
+                    "x0": 2113,
+                    "y0": 831,
+                    "x1": 2193,
+                    "y1": 860
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "1T",
+                  "bbox": {
+                    "x0": 2210,
+                    "y0": 832,
+                    "x1": 2248,
+                    "y1": 859
+                  },
+                  "confidence": 0.95,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            }
+          ],
+          "block_type": "text",
+          "label": ""
+        },
+        {
+          "bbox": {
+            "x0": 1947,
+            "y0": 1254,
+            "x1": 2307,
+            "y1": 1461
+          },
+          "lines": [
+            {
+              "words": [
+                {
+                  "text": "Trascritto",
+                  "bbox": {
+                    "x0": 1947,
+                    "y0": 1255,
+                    "x1": 2103,
+                    "y1": 1283
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "a",
+                  "bbox": {
+                    "x0": 2130,
+                    "y0": 1261,
+                    "x1": 2133,
+                    "y1": 1283
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "COSENZA",
+                  "bbox": {
+                    "x0": 2148,
+                    "y0": 1254,
+                    "x1": 2307,
+                    "y1": 1283
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "in",
+                  "bbox": {
+                    "x0": 1950,
+                    "y0": 1315,
+                    "x1": 1975,
+                    "y1": 1342
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "data",
+                  "bbox": {
+                    "x0": 1990,
+                    "y0": 1313,
+                    "x1": 2059,
+                    "y1": 1343
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "17/07/2026",
+                  "bbox": {
+                    "x0": 2078,
+                    "y0": 1313,
+                    "x1": 2264,
+                    "y1": 1348
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "N.",
+                  "bbox": {
+                    "x0": 1950,
+                    "y0": 1374,
+                    "x1": 1980,
+                    "y1": 1401
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "22579",
+                  "bbox": {
+                    "x0": 1998,
+                    "y0": 1373,
+                    "x1": 2096,
+                    "y1": 1402
+                  },
+                  "confidence": 0.95,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "R.G.",
+                  "bbox": {
+                    "x0": 2113,
+                    "y0": 1373,
+                    "x1": 2177,
+                    "y1": 1402
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "N.",
+                  "bbox": {
+                    "x0": 1950,
+                    "y0": 1433,
+                    "x1": 1980,
+                    "y1": 1460
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "18530",
+                  "bbox": {
+                    "x0": 2000,
+                    "y0": 1432,
+                    "x1": 2096,
+                    "y1": 1461
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "R.P.",
+                  "bbox": {
+                    "x0": 2113,
+                    "y0": 1433,
+                    "x1": 2173,
+                    "y1": 1460
+                  },
+                  "confidence": 0.89,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            }
+          ],
+          "block_type": "text",
+          "label": ""
+        },
+        {
+          "bbox": {
+            "x0": 1947,
+            "y0": 1749,
+            "x1": 2307,
+            "y1": 1955
+          },
+          "lines": [
+            {
+              "words": [
+                {
+                  "text": "Trascritto",
+                  "bbox": {
+                    "x0": 1947,
+                    "y0": 1750,
+                    "x1": 2103,
+                    "y1": 1778
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "a",
+                  "bbox": {
+                    "x0": 2130,
+                    "y0": 1756,
+                    "x1": 2133,
+                    "y1": 1778
+                  },
+                  "confidence": 0.93,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "COSENZA",
+                  "bbox": {
+                    "x0": 2148,
+                    "y0": 1749,
+                    "x1": 2307,
+                    "y1": 1778
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "in",
+                  "bbox": {
+                    "x0": 1950,
+                    "y0": 1809,
+                    "x1": 1975,
+                    "y1": 1836
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "data",
+                  "bbox": {
+                    "x0": 1990,
+                    "y0": 1807,
+                    "x1": 2059,
+                    "y1": 1837
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "17/07/2026",
+                  "bbox": {
+                    "x0": 2078,
+                    "y0": 1807,
+                    "x1": 2264,
+                    "y1": 1842
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "N.",
+                  "bbox": {
+                    "x0": 1950,
+                    "y0": 1868,
+                    "x1": 1980,
+                    "y1": 1895
+                  },
+                  "confidence": 0.92,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "22580",
+                  "bbox": {
+                    "x0": 1998,
+                    "y0": 1867,
+                    "x1": 2096,
+                    "y1": 1896
+                  },
+                  "confidence": 0.95,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "R.G.",
+                  "bbox": {
+                    "x0": 2113,
+                    "y0": 1867,
+                    "x1": 2177,
+                    "y1": 1896
+                  },
+                  "confidence": 0.95,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            },
+            {
+              "words": [
+                {
+                  "text": "N.",
+                  "bbox": {
+                    "x0": 1950,
+                    "y0": 1927,
+                    "x1": 1980,
+                    "y1": 1954
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "18531",
+                  "bbox": {
+                    "x0": 2000,
+                    "y0": 1926,
+                    "x1": 2095,
+                    "y1": 1955
+                  },
+                  "confidence": 0.91,
+                  "corrected_text": null,
+                  "status": "untouched"
+                },
+                {
+                  "text": "R.P.",
+                  "bbox": {
+                    "x0": 2113,
+                    "y0": 1927,
+                    "x1": 2173,
+                    "y1": 1954
+                  },
+                  "confidence": 0.9,
+                  "corrected_text": null,
+                  "status": "untouched"
+                }
+              ]
+            }
+          ],
+          "block_type": "text",
+          "label": ""
+        }
+      ]
+    }
+  ]
+}

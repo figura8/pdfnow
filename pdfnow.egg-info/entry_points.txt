@@ -1,0 +1,2 @@
+[console_scripts]
+pdfnow = pdfnow.cli:main
