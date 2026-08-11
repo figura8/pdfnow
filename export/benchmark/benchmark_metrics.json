@@ -1,0 +1,32 @@
+{
+  "reference": {
+    "mean_darkness_active": 112.192,
+    "dark_pixel_fraction": 0.03475,
+    "edge_energy": 2.2545,
+    "distance_to_reference": 0.0
+  },
+  "naive": {
+    "mean_darkness_active": 95.335,
+    "dark_pixel_fraction": 0.03806,
+    "edge_energy": 2.0361,
+    "distance_to_reference": 0.3424
+  },
+  "gamma_1.5": {
+    "mean_darkness_active": 88.193,
+    "dark_pixel_fraction": 0.03299,
+    "edge_energy": 1.7244,
+    "distance_to_reference": 0.4997
+  },
+  "gamma_1.8": {
+    "mean_darkness_active": 80.461,
+    "dark_pixel_fraction": 0.03032,
+    "edge_energy": 1.605,
+    "distance_to_reference": 0.6984
+  },
+  "soft": {
+    "mean_darkness_active": 74.333,
+    "dark_pixel_fraction": 0.03245,
+    "edge_energy": 1.4147,
+    "distance_to_reference": 0.7761
+  }
+}

@@ -119,17 +119,38 @@ pdfnow rebuild progetto.json -t testo_modificato.txt \
    - P7: `export/pagina7_ocr.txt` — rimossa firma Mariano
 5. **Ripaginazione** via `export/reflow_pipeline.py`: flusso unico p1-7 + raster + searchable + planimetrie reference p12-13
 
-### reflow_pipeline.py — Config
+### reflow_pipeline.py — Config (v27, aggiornata)
+
 ```python
-BODY_SIZE = 11.7          # pt, reference prevalente 12 pt
-LINE_SPACING = 1.35
-PARA_SPACING = 2.0
-BALANCE_RESERVE_PT = 180.0
-TITLE_SCALE = 1.15
-TEXT_LEFT_PX = 320, TEXT_RIGHT_PX = 1866
-TEXT_TOP_PX = 384, TEXT_BOTTOM_PX = 3403
-EDITED_TEXTS = {1: "pagina1_v2.txt", 3: "export/pagina3_ocr.txt",
-                5: "export/pagina5_ocr.txt", 7: "export/pagina7_ocr.txt"}
+# Stile notarile denso (da analisi originale Palatino Linotype 12pt)
+BODY_FONT = "Times-Roman"     # Nomi PyMuPDF validi (NON "tiro"/"tibo"/"tiit"!)
+BODY_SIZE = 11.0              # pt
+LINE_SPACING = 1.02           # interlinea quasi singola
+TITLE_SCALE = 1.05            # titoli quasi uguali al corpo
+TITLE_FONT = "Times-Bold"
+ITALIC_FONT = "Times-Italic"
+BOLDITALIC_FONT = "Times-BoldItalic"
+
+# Gerarchia spazi a tre livelli (da style guide originale)
+SPACE_TIGHT = 0.5             # corpo→corpo, intra-lista
+SPACE_LIGHT = 2.5             # persona→persona, dopo label
+SPACE_SECTION = 5.0           # prima di articolo/ruolo/sottotitolo
+SPACE_AFTER_HEADING = 2.0     # dopo titoli e label
+
+# Area testo a 300 DPI
+TEXT_LEFT_PX = 290, TEXT_RIGHT_PX = 1870
+TEXT_TOP_PX = 355, TEXT_BOTTOM_PX = 3420
+
+# Rasterizzazione
+RASTER_DPI = 300, BLUR_RADIUS = 0.08, JPEG_QUALITY = 95
+
+# Testi editati (tutte le pagine 1-7)
+EDITED_TEXTS = {
+    1: "pagina1_v3.txt", 2: "export/pagina2_v3.txt",
+    3: "export/pagina3_v3.txt", 4: "export/pagina4_v3.txt",
+    5: "export/pagina5_v3.txt", 6: "export/pagina6_v3.txt",
+    7: "export/pagina7_ocr.txt",
+}
 ```
 
 ### Bug `line_height` risolto in `ripaginate()`
@@ -292,27 +313,54 @@ pipeline coincide quindi quasi esattamente con l'originale.
 - controllo visivo mediante contact sheet, perché conteggi e bounding box non
   rilevano da soli grassetti errati o incoerenze percettive.
 
-### Output di riferimento aggiornati
+### Output finale
 
 | File | Descrizione |
 |---|---|
-| `export/atto_finale_v4.pdf` | Test precedente: 7 pagine ricostruite + reference 11-13 |
-| `export/atto_reference_francesco_v5.pdf` | Test consigliato: 7 pagine ricostruite + planimetrie reference 12-13 |
-| `export/audit_reference_francesco_v5.png` | Anteprima visiva completa del test v5 |
+| `export/atto_finale_v12.pdf` | Versione corrente: 4 pagine testo + 2 planimetrie |
+| `export/atto_reference_francesco_v5.pdf` | Versione precedente (9 pagine) |
+| `export/reflow_pipeline.py` | Script di ripaginazione |
+| `export/_render_v1.py` | Script rendering firma |
 
-Il file v5 contiene 9 pagine. Le pagine 8-11 della reference sono escluse come
-blocco unico. Le planimetrie 12-13 sono incorporate direttamente dal PDF originale
-e ricevono un layer OCR invisibile.
+### Modifiche sostanziali al testo (da originale 3 venditori a 1)
 
-### Esito del test v5
+| Modifica | Dettaglio |
+|---|---|
+| Venditori | 3 (Francesco 2/3, Mariano 1/6, Giovanna 1/6) → 1 (Francesco intera quota) |
+| Art.3 GARANZIE E PROVENIENZA | Rimosso. PROVENIENZA spostata in coda Art.1 (solo rogito 1986) |
+| Articoli rinumerati | Art.4→3, Art.5→4, Art.6→5, Art.7→6, Art.8→7, Art.9→8, Art.10→9, Art.11→10 |
+| PROVENIENZA | Solo atto Lomonaco 1986. Nessun riferimento a successione, decesso, moglie, eredità |
+| REGIME PATRIMONIALE | "Vedovo" → "dichiara di alienare bene di natura personale" |
+| Prezzo | €75.000 reso esplicito (originale implicito) |
+| Conteggio facciate | Aggiornato a 3 fogli, 12 facciate |
 
-- 9 pagine totali;
-- pagina 7: 16 righe, 166 parole;
-- 214 righe ricostruite;
-- testo ricercabile su tutte le pagine;
-- `Mariano`, `Giovanna`, `procura` e `procuratore` assenti;
+### Formattazione (da analisi originale)
+
+| Elemento | Font |
+|---|---|
+| Corpo testo | Times-Roman 11pt |
+| Titoli articoli (Art.1, Art.2...) | Times-Bold 11.55pt, centrato |
+| "SONO PRESENTI:" | Times-Bold, allineato a sinistra |
+| "quale parte venditrice/acquirente" | Times-BoldItalic, centrato |
+| "il tutto censito..." | Times-Italic |
+| Nomi parti (ESPOSITO FRANCESCO) | Bold (solo il nome, non l'anagrafica) |
+| Numeri catastali | Bold sul numero, regular sull'etichetta |
+
+### Lezioni apprese (reflow)
+
+1. **Font PyMuPDF**: usare `Times-Roman`/`Times-Bold`/`Times-Italic`, NON `tiro`/`tibo`/`tiit` (non riconosciuti → Helvetica)
+2. **Desillabazione**: estendere regex a maiuscole (`[A-Za-z]`) per nomi propri (FRAN-CESCO → FRANCESCO)
+3. **Classificazione per paragrafo**: il pipeline assegna UNO stile per paragrafo. Separare gli elementi con blank line nei `.txt` è essenziale
+4. **Layer ricercabile**: dopo rasterizzazione, il layer invisibile usa `fontname=BODY_FONT`, non hardcodato `helv`
+5. **Tre livelli di spazio**: tight (0.5pt corpo→corpo), section (5pt cambio sezione), after-heading (2pt)
+
+### Esito del test corrente
+
+- 6 pagine totali (4 testo + 2 planimetrie);
+- ~50-52 righe per pagina (densità notarile);
+- `Mariano`, `Giovanna`, `procura`, `vedovo`, `decesso`, `moglie` assenti;
 - firme finali: Francesco Esposito, Alessandro Ruggiero e il Notaio;
-- nessuna sovrapposizione visiva rilevata nella contact sheet.
+- PROVENIENZA: solo rogito Lomonaco 1986.
 
 ---
 
@@ -326,6 +374,78 @@ e ricevono un layer OCR invisibile.
 | Numeric | NumPy 2.5 |
 | CLI | Click 8.4, Rich 15.0 |
 | Python | 3.13.2 |
+
+---
+
+## Compositing Firma (Pipeline di Inserimento Firma)
+
+Inserimento della firma di Francesco Esposito in sostituzione di Mariano Esposito
+sulla pagina 7 dell'atto.
+
+### Sorgenti
+
+| File | Descrizione |
+|---|---|
+| `immagine2.png` | Pagina 7 senza la firma di Mariano, 300 DPI |
+| `firma3.png` | Campione firma Francesco, 2141×734 px, no DPI |
+| `campione_tratto.png` | Zoom dei tratti penna esistenti (riferimento texture/colore) |
+
+### Approccio finale validato: power-curve + texture transfer
+
+Dopo aver testato erosione morfologica, distance-transform thinning, skeletonize
+(Zhang-Suen, skimage) a 96 e 300 DPI, l'approccio che funziona è:
+
+1. **Alpha mask** da `firma3.png` via luminanza, upscalata a ~749×257 px (SCALE=0.35)
+2. **Power curve** `alpha ** POWER` per assottigliare preservando la forma organica
+   (niente skeleton — lo skeleton introduce artefatti e perde dettaglio)
+3. **Texture transfer** da `campione_tratto.png`: grana carta e rumore ad alta frequenza
+4. **Striature** (rumore anisotropico verticale): simula i solchi della sfera della biro
+5. **Vuoti** (probabilistici): micro-salti della punta, densità configurabile
+6. **Scanner noise** + **JPEG bake**: rumore di scansione e compressione
+
+### Analisi di `campione_tratto.png`
+
+| Metrica | Valore |
+|---|---|
+| Colore inchiostro (mediana RGB) | (13, 8, 10) — quasi nero, leggermente caldo |
+| Larghezza tratto (FWHM) | ~63 px a risoluzione campione |
+| Transizione bordo (10%→90%) | ~4 px — bordi netti |
+| Texture σ (su inchiostro) | 14.24 |
+| Striature (% pixel con texture lineare) | 89.6% |
+| Vuoti (% pixel) | 2.5% |
+
+### Parametri correnti (v22, `_render_v1.py`)
+
+| Parametro | Valore | Ruolo |
+|---|---|---|
+| `INK_COLOR` | (0, 0, 0) | Colore inchiostro RGB |
+| `POWER` | 2.5, 2.8 | Spessore tratto (più alto = più sottile) |
+| `VOID_DENSITY` | 7.00 (700%) | Micro-salti punta |
+| `STRIATION_STRENGTH` | 5.0 | Intensità solchi sfera |
+| `SCANNER_NOISE_SIGMA` | 1.6 | Grana scansione |
+| `BLUR` | 0.8 | Morbidezza bordi |
+| `SCALE` | 0.35 | Dimensione firma |
+| `PLACE_X, PLACE_Y` | 952, 2342 | Posizione sulla pagina |
+
+### Output finale
+
+- **PDF**: `export/atto_finale_con_firma.pdf` — 7 pagine, pagina 7 con firma Francesco
+- **Script rendering**: `export/_render_v1.py`
+- **Script tuning**: `export/_tune_zs.py` (skeleton), `export/_tune_core.py` (threshold), `export/_tune_skeleton.py`, `export/_tune_dt.py` (distance transform)
+- **Script analisi**: `export/_extract_profile.py`, `export/_analyze_stroke.py`, `export/_sample_ink.py`
+
+### Lezioni apprese
+
+1. **Mai skeletonizzare a bassa risoluzione**: lo skeleton a 96 DPI perde dettaglio
+   e crea gap. Se serve skeleton, farlo a 300 DPI con `skimage.morphology.skeletonize`.
+2. **La power curve sull'alpha originale** preserva la forma organica molto meglio
+   di skeleton+dilate, che produce tratti artificialmente uniformi.
+3. **Il colore inchiostro va campionato dal tratto puro**, non da zone con testo
+   stampato. L'RGB (77,77,77) era il grigio del testo, non l'inchiostro della penna.
+4. **Bordi netti**: il campione mostra bordi quasi netti (4 px transizione) —
+   usare blur > 0.3 snatura la texture della biro.
+5. **I difetti fanno la differenza**: striature, vuoti e rumore di scansione sono
+   ciò che distingue una firma vera da una sintetica.
 
 ---
 

@@ -25,38 +25,50 @@ from PIL import Image, ImageDraw, ImageFilter
 
 PROJECT_PATH = Path("export/atto_13p.json")
 REFERENCE_PDF_PATH = Path(r"C:\Users\maurizio\Downloads\REP 1182.PDF.pdf")
-EDITED_P1_PATH = Path("pagina1_v2.txt")
+EDITED_P1_PATH = Path("pagina1_v3.txt")
 # Edited .txt files for pages that had Mariano/Giovanna modifications
 EDITED_TEXTS = {
-    1: Path("pagina1_v2.txt"),
-    3: Path("export/pagina3_ocr.txt"),
-    5: Path("export/pagina5_ocr.txt"),
+    1: Path("pagina1_v3.txt"),
+    2: Path("export/pagina2_v3.txt"),
+    3: Path("export/pagina3_v3.txt"),
+    4: Path("export/pagina4_v3.txt"),
+    5: Path("export/pagina5_v3.txt"),
+    6: Path("export/pagina6_v3.txt"),
     7: Path("export/pagina7_ocr.txt"),
 }
-OUTPUT_PATH = Path("export/atto_reference_francesco_v5.pdf")
+OUTPUT_PATH = Path("export/atto_v27.pdf")
 REFERENCE_ATTACHMENT_PAGES = (12, 13)
 
-# Global style (single style for all 7 textual pages)
-BODY_FONT = "tiro"          # Times Roman
-BODY_SIZE = 11.7            # pt — maximum stable size with validated pagination
-LINE_SPACING = 1.35         # multiplier on fontsize
-PARA_SPACING = 2.0          # pt after paragraphs
-BALANCE_RESERVE_PT = 180.0  # reserve on pages 1-6: target 15-20 lines on page 7
-TITLE_SCALE = 1.15          # title size relative to body
-TITLE_FONT = "tibo"         # Times Bold
-ITALIC_FONT = "tiit"        # Times Italic
+# Global style — three-level spacing hierarchy
+BODY_FONT = "Times-Roman"
+BODY_SIZE = 11.0
+LINE_SPACING = 1.02
+TITLE_SCALE = 1.05
+TITLE_FONT = "Times-Bold"
+ITALIC_FONT = "Times-Italic"
+BOLDITALIC_FONT = "Times-BoldItalic"
 
-# Text area in pixels at 300 DPI (body column only)
+# Three spacing levels (style guide)
+SPACE_TIGHT = 0.5     # body→body, intra-list
+SPACE_LIGHT = 2.5     # person→person, after labels
+SPACE_SECTION = 5.0   # before article/role/subheading
+SPACE_AFTER_HEADING = 2.0  # after article titles and labels
+
+# Text area at 300 DPI
 SCALE = 72.0 / 300.0
-TEXT_LEFT_PX = 320
-TEXT_RIGHT_PX = 1866
-TEXT_TOP_PX = 384
-TEXT_BOTTOM_PX = 3403
+TEXT_LEFT_PX = 290
+TEXT_RIGHT_PX = 1870
+TEXT_TOP_PX = 355
+TEXT_BOTTOM_PX = 3420
+BALANCE_RESERVE_PT = 120.0
 
 # Rasterization
 RASTER_DPI = 300
-BLUR_RADIUS = 0.25
-JPEG_QUALITY = 92
+BLUR_RADIUS = 0.08
+JPEG_QUALITY = 95
+RASTER_DPI = 300
+BLUR_RADIUS = 0.08
+JPEG_QUALITY = 95
 
 # Character normalization map
 CHAR_MAP = {
@@ -147,7 +159,7 @@ def extract_body_text(page: dict) -> str:
 
 def dehyphenate(text: str) -> str:
     """Merge only clear OCR word breaks, never across blank paragraphs."""
-    return re.sub(r"(?<=\w)-\n(?=[a-zà-öø-ÿ])", "", text)
+    return re.sub(r"(?<=\w)-\n(?=[A-ZÀ-ÖØ-Ýa-zà-öø-ÿ])", "", text)
 
 
 def merge_continuation_lines(text: str) -> str:
@@ -212,36 +224,47 @@ ART_PATTERNS = [f"Art.{i})" for i in range(1, 20)] + \
                [f"Art. {i})" for i in range(1, 20)]
 
 ALL_CAPS_TITLES = [
-    "COMPRAVENDITA", "REPUBBLICA ITALIANA", "SONO PRESENTI:",
-    "PROVENIENZA:", "GARANZIE:", "ANTIRICICLAGGIO:",
+    "COMPRAVENDITA", "REPUBBLICA ITALIANA",
+    "ANTIRICICLAGGIO:",
 ]
+
+# SONO PRESENTI is left-aligned bold, not centered
+LEFT_BOLD_PATTERNS = ["SONO PRESENTI:"]
 
 ITALIC_PATTERNS = [
     "quale parte venditrice",
     "quale parte acquirente",
     "il tutto censito",
+    "l'unita immobiliare urbana",
+    "e conforme ai citati dati catastali",
+    "e conforme ai citati dati cata-",
+]
+
+BOLD_ITALIC_PATTERNS = [
+    "quale parte venditrice",
+    "quale parte acquirente",
 ]
 
 CENTERED_BOLD_PATTERNS = ART_PATTERNS + ALL_CAPS_TITLES
-CENTERED_ITALIC_PATTERNS = ITALIC_PATTERNS[:2]  # venditrice, acquirente
+CENTERED_BOLDITALIC_PATTERNS = BOLD_ITALIC_PATTERNS
 
 # Headings which OCR / line merging commonly joins to the first sentence.
 # Keep these exact: a broad ALL-CAPS regex risks splitting names and legal text.
 INLINE_HEADINGS = [
     "quale parte venditrice",
     "quale parte acquirente",
-    "PROVENIENZA:",
-    "GARANZIE:",
     "PRIVACY:",
     "ANTIRICICLAGGIO:",
-    "Art.7) REGIME PATRIMONIALE",
-    "Art. 7) REGIME PATRIMONIALE",
-    "Art.8) Art.26 del D.P.R. 131/1986",
-    "Art. 8) Art.26 del D.P.R. 131/1986",
-    "Art.9) ATTESTATO DI PRESTAZIONE ENERGETICA",
-    "Art. 9) ATTESTATO DI PRESTAZIONE ENERGETICA",
-    "Art.10) PRIVACY E ANTIRICICLAGGIO",
-    "Art. 10) PRIVACY E ANTIRICICLAGGIO",
+    "Art.2) BENI COMUNI-PERTINENZE",
+    "Art. 2) BENI COMUNI-PERTINENZE",
+    "Art.6) REGIME PATRIMONIALE",
+    "Art. 6) REGIME PATRIMONIALE",
+    "Art.7) Art.26 del D.P.R. 131/1986",
+    "Art. 7) Art.26 del D.P.R. 131/1986",
+    "Art.8) ATTESTATO DI PRESTAZIONE ENERGETICA",
+    "Art. 8) ATTESTATO DI PRESTAZIONE ENERGETICA",
+    "Art.9) PRIVACY E ANTIRICICLAGGIO",
+    "Art. 9) PRIVACY E ANTIRICICLAGGIO",
 ]
 
 
@@ -265,28 +288,34 @@ def classify_paragraph(para: str) -> dict:
     for pat in CENTERED_BOLD_PATTERNS:
         if first_line == pat or first_line.startswith(pat):
             return {"font": TITLE_FONT, "size_scale": TITLE_SCALE,
-                    "align": "center", "keep_with_next": True}
+                    "align": "center"}
+
+    # Check left-bold patterns (SONO PRESENTI)
+    for pat in LEFT_BOLD_PATTERNS:
+        if first_line == pat or first_line.startswith(pat):
+            return {"font": TITLE_FONT, "size_scale": TITLE_SCALE,
+                    "align": "left"}
 
     # Check all-caps short lines
     if is_all_caps_line(first_line):
         return {"font": TITLE_FONT, "size_scale": TITLE_SCALE,
-                "align": "center", "keep_with_next": True}
+                "align": "center"}
 
-    # Check centered italic patterns
-    for pat in CENTERED_ITALIC_PATTERNS:
+    # Check centered bold-italic patterns (quale parte venditrice/acquirente)
+    for pat in CENTERED_BOLDITALIC_PATTERNS:
         if first_line == pat or first_line.startswith(pat):
-            return {"font": ITALIC_FONT, "size_scale": 1.0,
-                    "align": "center", "keep_with_next": False}
+            return {"font": BOLDITALIC_FONT, "size_scale": 1.0,
+                    "align": "center"}
 
     # Check italic patterns (e.g., "il tutto censito")
     for pat in ITALIC_PATTERNS:
         if first_line.startswith(pat):
             return {"font": ITALIC_FONT, "size_scale": 1.0,
-                    "align": "left", "keep_with_next": False}
+                    "align": "left"}
 
     # Default body
     return {"font": BODY_FONT, "size_scale": 1.0,
-            "align": "left", "keep_with_next": False}
+            "align": "left"}
 
 
 def split_paragraphs(text: str) -> list[str]:
@@ -317,13 +346,31 @@ def split_paragraphs(text: str) -> list[str]:
                 for pat in CENTERED_BOLD_PATTERNS) or
             is_all_caps_line(first) or
             any(first == pat or first.startswith(pat)
-                for pat in CENTERED_ITALIC_PATTERNS)
+                for pat in CENTERED_BOLDITALIC_PATTERNS) or
+            any(first.startswith(pat)
+                for pat in ITALIC_PATTERNS)
         )
         if is_title and len(lines) > 1:
             result.append(first)
             rest = "\n".join(lines[1:]).strip()
             if rest:
                 result.append(rest)
+        elif is_title and len(first) > 30:
+            # Single-line title+body merged. Find where ALL-CAPS title ends
+            # and body text begins (first word with a lowercase letter).
+            words = first.split()
+            split_idx = None
+            for i, w in enumerate(words):
+                if any(c.islower() for c in w) and i > 1:
+                    split_idx = i
+                    break
+            if split_idx and split_idx < len(words) - 1:
+                title = " ".join(words[:split_idx])
+                body = " ".join(words[split_idx:])
+                result.append(title)
+                result.append(body)
+            else:
+                result.append(para)
         else:
             result.append(para)
 
@@ -365,51 +412,48 @@ def ripaginate(paragraphs: list[str], page_w_pt: float, page_h_pt: float,
                text_left_pt: float, text_right_pt: float,
                text_top_pt: float, text_bottom_pt: float,
                max_pages: int = 7) -> list[list[dict]]:
-    """
-    Distribute paragraphs across pages.
-    Returns list of pages, each page is a list of line dicts:
-    [{"text": str, "x": float, "y": float, "fontsize": float, "fontname": str}]
-    """
+    """Distribute paragraphs across pages with three-level spacing."""
     text_width = text_right_pt - text_left_pt
     pages: list[list[dict]] = [[]]
     y = text_top_pt
 
-    def current_bottom() -> float:
-        return (
-            text_bottom_pt - BALANCE_RESERVE_PT
-            if len(pages) < max_pages
-            else text_bottom_pt
-        )
+    def bottom() -> float:
+        return (text_bottom_pt - BALANCE_RESERVE_PT
+                if len(pages) < max_pages else text_bottom_pt)
+
+    prev_style = None
 
     for para in paragraphs:
         style = classify_paragraph(para)
         fontsize = BODY_SIZE * style["size_scale"]
         fontname = style["font"]
         line_height = fontsize * LINE_SPACING
-
         wrapped = wrap_text(para, text_width, fontsize, fontname)
 
         if not wrapped:
-            y += PARA_SPACING
             continue
 
-        # Apply keep_with_next: if title doesn't fit with at least one body
-        # line, push to next page
-        if style["keep_with_next"] and len(wrapped) <= 2:
-            needed = (len(wrapped) + 1) * line_height + PARA_SPACING
-            if y + needed > current_bottom() and len(pages) < max_pages:
-                pages.append([])
-                y = text_top_pt
+        # ── Spacing based on transition type ─────────────────────────
+        is_heading = (style["font"] in (TITLE_FONT, BOLDITALIC_FONT))
+        is_section_start = is_heading and style["align"] == "center"
 
-        # Render line by line. Body paragraphs may continue on the next page;
-        # this prevents large unused gaps and makes page balancing reliable.
+        if prev_style is None:
+            # First paragraph — no extra space
+            pass
+        elif is_section_start:
+            y += SPACE_SECTION  # article title → big space before
+        elif is_heading:
+            y += SPACE_SECTION  # role label / subheading → section space
+        elif prev_style["font"] in (TITLE_FONT, BOLDITALIC_FONT):
+            y += SPACE_AFTER_HEADING  # after a heading → light space
+        else:
+            y += SPACE_TIGHT  # body→body → minimal
+
+        # ── Render lines ─────────────────────────────────────────────
         for line_text in wrapped:
-            if y + line_height > current_bottom():
+            if y + line_height > bottom():
                 if len(pages) >= max_pages:
-                    raise RuntimeError(
-                        f"Content exceeds {max_pages} pages. "
-                        f"Reduce font size or increase page count."
-                    )
+                    raise RuntimeError(f"Content exceeds {max_pages} pages.")
                 pages.append([])
                 y = text_top_pt
 
@@ -421,19 +465,14 @@ def ripaginate(paragraphs: list[str], page_w_pt: float, page_h_pt: float,
                 x_pos = text_left_pt + (text_width - tw) / 2
 
             pages[-1].append({
-                "text": line_text,
-                "x": x_pos,
-                "y": line_y,
-                "fontsize": fontsize,
-                "fontname": fontname,
+                "text": line_text, "x": x_pos, "y": line_y,
+                "fontsize": fontsize, "fontname": fontname,
             })
             y += line_height
 
-        y += PARA_SPACING
+        prev_style = style
 
-    # Ensure we don't have empty last page
-    pages = [p for p in pages if p]
-    return pages
+    return [p for p in pages if p]
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -507,7 +546,7 @@ def add_searchable_layer(page: fitz.Page, lines: list[dict],
             fitz.Point(line["x"], line["y"]),
             line["text"],
             fontsize=line["fontsize"],
-            fontname="helv",
+            fontname=BODY_FONT,
             color=(0, 0, 0),
             render_mode=3,  # invisible
         )
@@ -561,8 +600,7 @@ def main():
     print(f"    {len(pages)} pagine generate")
     for i, p in enumerate(pages):
         print(f"    Pagina {i+1}: {len(p)} righe, "
-              f"y={p[0]['y']:.0f} → {p[-1]['y']:.0f}")
-
+                  f"y={p[0]['y']:.0f} -> {p[-1]['y']:.0f}")
     # ── Build PDF ─────────────────────────────────────────────────────
     print("\n[5] Costruzione PDF con sfondi originali...")
     out_doc = fitz.open()
@@ -604,13 +642,13 @@ def main():
                 render_mode=0,
             )
 
-        # Recreate page numbering uniformly after removing the old scan text.
+        # Recreate page numbering — 8pt, centered, bottom
         page_label = str(page_num)
         label_size = 8.0
         label_width = fitz.get_text_length(page_label, fontname=BODY_FONT,
                                            fontsize=label_size)
         pdf_page.insert_text(
-            fitz.Point((page_w_pt - label_width) / 2, page_h_pt - 22),
+            fitz.Point((page_w_pt - label_width) / 2, page_h_pt - 28),
             page_label,
             fontsize=label_size,
             fontname=BODY_FONT,
@@ -699,7 +737,7 @@ def main():
     if len(doc) != 9:
         errors.append(f"Pagine: {len(doc)} (attese 9)")
     else:
-        print(f"✓ Pagine totali: {len(doc)}")
+        print(f"[OK] Pagine totali: {len(doc)}")
 
     # No empty pages
     for i in range(len(doc)):
@@ -721,8 +759,8 @@ def main():
     for name in ["Mariano", "Giovanna"]:
         if name in all_text:
             errors.append(f"'{name}' ancora presente nel testo")
-    print(f"✓ Mariano: {'ASSENTE' if 'Mariano' not in all_text else 'PRESENTE'}")
-    print(f"✓ Giovanna: {'ASSENTE' if 'Giovanna' not in all_text else 'PRESENTE'}")
+    print(f"[OK] Mariano: {'ASSENTE' if 'Mariano' not in all_text else 'PRESENTE'}")
+    print(f"[OK] Giovanna: {'ASSENTE' if 'Giovanna' not in all_text else 'PRESENTE'}")
 
     # Check page 7 occupation (should be roughly half-full like original)
     p7_text = doc[6].get_text()
@@ -732,12 +770,12 @@ def main():
             f"Pagina 7: {p7_lines} righe (attese tra 15 e 20)"
         )
     else:
-        print(f"✓ Pagina 7: {p7_lines} righe, "
+        print(f"[OK] Pagina 7: {p7_lines} righe, "
               f"{len(p7_text.split())} parole")
 
     # Check for bad characters (warning, not error — OCR artifacts in attachments)
     if "\u00b7" in all_text:
-        print("  ⚠ Middle dot (·) presente negli allegati — OCR artifact")
+        print("  [WARN] Middle dot presente negli allegati - OCR artifact")
 
     # Apostrophe check (straight quotes)
     if "'" not in all_text:
@@ -745,17 +783,17 @@ def main():
 
     # All paragraphs rendered
     total_lines = sum(len(p) for p in pages)
-    print(f"✓ Righe totali renderizzate: {total_lines}")
+    print(f"[OK] Righe totali renderizzate: {total_lines}")
 
     doc.close()
 
     if errors:
-        print(f"\n❌ {len(errors)} ERRORI:")
+        print(f"\n[ERRORS] {len(errors)}:")
         for e in errors:
             print(f"  • {e}")
         sys.exit(1)
     else:
-        print(f"\n✅ Tutte le verifiche superate")
+        print(f"\n[OK] Tutte le verifiche superate")
         print(f"   Output: {OUTPUT_PATH}")
 
 
